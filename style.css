@@ -25,7 +25,6 @@ body {
     margin: 0 auto;
     padding: 0 30px;
     
-    
 }
 
 ul {
@@ -120,15 +119,9 @@ h1 {
 
 .info-container {
     display: flex;
+    justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
-    
-
-}
-
-.box-group {
-   
- 
 }
 
 .box {
@@ -179,9 +172,13 @@ h1 {
 }
 
 .banner {
-    
-margin: 40px;
-
+    /* margin: 50px; */
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 20px 60px 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 
 .cta-container {
@@ -189,12 +186,13 @@ margin: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1100px;
-    margin: 0 auto;
+    /* max-width: 1100px; */
+    /* margin: 0 auto; */
     background-color: #3882F6;
     border: 1px solid #3882F6;
     border-radius: 10px;
-    padding: 40px 90px 40px 90px;
+    padding: 30px;
+    /* padding: 40px 90px 40px 90px; */
     
 }
 
@@ -223,6 +221,18 @@ margin: 40px;
     cursor: pointer;
 }
 
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    color: #fff;
+    font-size: 16px;
+    padding: 25px;
+}
 
 
 
@@ -239,5 +249,13 @@ margin: 40px;
 
     .quote-content {
         font-size: 30px;
+    }
+
+    .cta-container {
+        display: block;
+    }
+
+    .button2 {
+        margin-top: 20px;
     }
 }
